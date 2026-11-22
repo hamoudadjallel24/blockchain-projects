@@ -55,10 +55,11 @@ def gen_merkle_proof(leaves, pos):
     level_pos = pos    # local copy of pos
 
     for level in range(height):
-        new_state = []
-        #######  YOUR CODE GOES HERE                              ######
-        #######     to hash internal nodes in the tree use the    ######
-        #######     function hash_internal_node(left,right)       ######
+        hashes.append(state[level_pos ^ 1])
+        new_state = [hash_internal_node(state[i], state[i + 1])
+                     for i in range(0, len(state), 2)]
+        state = new_state
+        level_pos //= 2
 
     # Returns list of hashes that make up the Merkle Proof
     return hashes
