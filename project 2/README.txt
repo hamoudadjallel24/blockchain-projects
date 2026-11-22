@@ -1,5 +1,4 @@
-CS251 Project 2 — Fall 2026
-Due October 13, 2026, 11:59pm Pacific (handout convention).
+Due November 22, 2026.
 
 Use Python 3.10+ and a virtual environment:
   python3 -m venv .venv

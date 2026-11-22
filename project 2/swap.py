@@ -9,7 +9,7 @@ from Q4 import (alice_txid_to_spend, alice_utxo_index, alice_amount_to_send,
 ######################################################################
 #                                                                    #
 #                                                                    #
-#              CS251 Project 2: Cross-chain Atomic Swap              #
+#              Project 2: Cross-chain Atomic Swap              #
 #                                                                    #
 #                                                                    #
 #                                                                    #
