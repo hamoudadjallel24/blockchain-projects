@@ -9,14 +9,8 @@ from Q4 import (alice_txid_to_spend, alice_utxo_index, alice_amount_to_send,
 ######################################################################
 #                                                                    #
 #                                                                    #
-#              Project 2: Cross-chain Atomic Swap              #
-#                                                                    #
-#                                                                    #
-#                                                                    #
-#              Written by: Max Spero                                 #
-#              Edited by: Belce Dogru and Blake Pagon                #
-#              September 22, 2020                                    #
-#              Version 3                                             #
+#              Project 2: Cross-chain Atomic Swap                    #
+#                                                                    #                                         #
 #                                                                    #
 ######################################################################
 #
